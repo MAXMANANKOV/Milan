@@ -1,8 +1,18 @@
-body{
-    background-color: rgb(93, 93, 116);
+body {
+  background-color: rgb(93, 93, 116);
+  display: flex; 
+  justify-content: center; /* centers content horizontally */
+  align-items: center; /* centers content vertically */
+  height: 100vh; /* make the body take up the full viewport height */
+  margin: 0; /* remove default body margin */
 }
+
 .img-size {
   width: 500px;
   height: 500px;
-  overflow: auto; /* this will add scroll bars if the text is too long to fit */
+  overflow: auto;
+  border: 2px solid transparent;
+  padding-left: 20px; /* Add space to the left */
+  padding-right: 20px; /* Add space to the right */
 }
+
