@@ -1,10 +1,9 @@
-body {
+body{
   background-color: rgb(93, 93, 116);
-  display: flex; 
-  justify-content: center; /* centers content horizontally */
-  align-items: center; /* centers content vertically */
-  height: 100vh; /* make the body take up the full viewport height */
-  margin: 0; /* remove default body margin */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .img-size {
@@ -12,7 +11,10 @@ body {
   height: 500px;
   overflow: auto;
   border: 2px solid transparent;
-  padding-left: 20px; /* Add space to the left */
-  padding-right: 20px; /* Add space to the right */
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
+#max-top {
+  margin-bottom: 20px; /* Adds space below the "Max top" line */
+}
